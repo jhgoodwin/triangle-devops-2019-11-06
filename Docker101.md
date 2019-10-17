@@ -10,20 +10,6 @@ by John Goodwin
 
 ---
 
-<style scoped>
-section {
-  background: white;
-}
-
-img {
-  margin-left: -70px;
-}
-</style>
-
-![Code Camp 2019](images/CodeCamp2019Slide.gif)
-
----
-
 # Intro
 
 - Metabolon, Inc
@@ -38,9 +24,11 @@ img {
 ## Agenda
 
 - Attendee Intentions
+- Motivation
 - Docker in 60 seconds
 - Demo
 - Decomposition of Demo
+- Bonus - Understanding Layers
 - Q&A
 - Resources
 
@@ -49,6 +37,34 @@ img {
 ## Attendee Intentions
 
 At this time, want to ask each person what they hoped this talk would cover.
+
+---
+
+## Motivation
+
+- Why a talk like this?
+- Short story first
+
+---
+
+## Sports Hobby - Endurance Races
+
+![First race face](images/first-sprint-finish-last-anguish_larger.jpg)
+
+---
+
+![After Image](images/after-image-20170216_h800.jpg)
+
+---
+
+## Quick poll
+
+- Is running a two legged exercise?
+- Is moving your hands/arms wasted energy?
+
+---
+
+- Sprinter [Usain Bolt Slow Motion 2015 HD](https://www.youtube.com/watch?v=yhaxKsBzGfw)
 
 ---
 
@@ -152,6 +168,14 @@ docker run --rm -it --mount type=bind,source=$(pwd),dst=/app python:3.7-alpine /
 
 ---
 
+## Bonus - Understanding Layers
+
+```shell
+dive python:3.7-alpine
+```
+
+---
+
 ## Q&A
 
 ### Questions
@@ -162,6 +186,7 @@ docker run --rm -it --mount type=bind,source=$(pwd),dst=/app python:3.7-alpine /
 
 - <https://docs.docker.com/>
 - <https://katacoda.com/>
+- <https://github.com/wagoodman/dive>
 - <https://github.com/marp-team/marp-vscode>
   - <https://github.com/marp-team/marp-cli/>
   - Used to transform markdown to slides
