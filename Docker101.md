@@ -21,12 +21,17 @@ by John Goodwin
 
 ---
 
+## Attendee Intentions
+
+At this time, want to ask each person what they hoped this talk would cover.
+
+---
+
 ## Agenda
 
-- Attendee Intentions
-- Motivation
-- Docker in 60 seconds
 - Demo
+- Motivation
+- Docker brief overview
 - Decomposition of Demo
 - Bonus - Understanding Layers
 - Q&A
@@ -34,9 +39,12 @@ by John Goodwin
 
 ---
 
-## Attendee Intentions
+## Demo
 
-At this time, want to ask each person what they hoped this talk would cover.
+```shell
+docker run python:3.7-alpine python3 --version
+docker run python:3.7-alpine python3 -c 'print("Triangle Devops!")'
+```
 
 ---
 
@@ -68,18 +76,21 @@ At this time, want to ask each person what they hoped this talk would cover.
 
 ---
 
+## Why?
+
+### Don't get hurt when you run
+
+---
+
 ## Docker in 60 seconds
 
 - <https://docs.docker.com/engine/docker-overview/>
 
 ---
 
-## Demo
+## Process
 
-```shell
-docker run python:3.7-alpine python3 --version
-docker run python:3.7-alpine python3 -c 'print("Hello codecamp!")'
-```
+- <https://www.youtube.com/watch?v=IvUU8joBb1Q>
 
 ---
 
