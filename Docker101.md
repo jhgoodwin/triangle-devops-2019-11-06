@@ -82,7 +82,7 @@ docker run python:3.7-alpine python3 -c 'print("Triangle Devops!")'
 
 ---
 
-## Docker in 60 seconds
+## Docker brief overview
 
 - <https://docs.docker.com/engine/docker-overview/>
 
